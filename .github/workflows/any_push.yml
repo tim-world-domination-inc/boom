@@ -3,6 +3,7 @@ on: push
 jobs:
   one:
     runs-on: ubuntu-latest
+    name: status check one
     steps:
       - name: This is the first step - HELLO WORLD
         run: echo "Hello World"
