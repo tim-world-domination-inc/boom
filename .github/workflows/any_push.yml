@@ -1,0 +1,9 @@
+name: any_push
+on: push
+jobs:
+  one:
+    runs-on: ubuntu-latest
+    steps:
+      - name: This is the first step - HELLO WORLD
+        run: echo "Hello World"
+      
