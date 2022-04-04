@@ -6,5 +6,7 @@ jobs:
     name: status check one
     steps:
       - name: This is the first step - HELLO WORLD
-        run: echo "Hello World"
+        run: |
+          echo "Hello World"
+          exit 1
       
