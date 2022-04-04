@@ -3,7 +3,7 @@ on: push
 jobs:
   one:
     runs-on: ubuntu-latest
-    name: status check one
+    name: something that doesnt exist
     steps:
       - name: This is the first step - HELLO WORLD
         run: | 
